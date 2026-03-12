@@ -1,0 +1,16 @@
+notebook==7.2.1
+jupyterlab==4.2.4
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+
+# Geospatial
+shapely==2.0.5
+pyproj==3.6.1
+
+# Visualization
+matplotlib==3.9.1
+seaborn==0.13.2
+folium==0.17.0
