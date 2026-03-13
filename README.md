@@ -1,6 +1,6 @@
 # Airspace Conflict Analysis
 
-Real-world ADS-B flight data analysis pipeline for detecting and characterizing aircraft separation violations in the Dallas/Fort Worth TRACON sector. Built with Python, Jupyter, Docker, and Kubernetes.
+Real-world ADS-B flight data analysis pipeline for detecting and characterizing aircraft separation violations in the Dallas/Fort Worth TRACON sector. Built with Python, Jupyter, (Docker, and Kubernetes - in development).
 
 ---
 
@@ -63,7 +63,7 @@ Run them in order: `01` → `02` → `03` → `04` → `05`.
 | **Haversine Formula** | Great-circle distance between aircraft lat/lon positions |
 | **FAA 7110.65 Standards** | 3 NM horizontal, 1,000 ft vertical separation minimums |
 | **Pairwise O(n²) Check** | Every aircraft pair evaluated at each snapshot |
-| **Composite Risk Score** | Separation margin (50%) + severity (30%) + closing speed (20%) |
+| **Composite Risk Score Calculation** | Separation margin (50%) + severity (30%) + closing speed (20%) |
 | **Closing Speed** | Velocity projection onto bearing — determines if aircraft are converging |
 | **Innovation / Residual** | Gap between predicted and observed position |
 
